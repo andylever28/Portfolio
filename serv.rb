@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  redirect("/public/andrew-lever.html")
+  redirect("/andrew-lever.html")
 end
