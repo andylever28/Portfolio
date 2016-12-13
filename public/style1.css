@@ -42,8 +42,7 @@ a:hover {
 
 #biocontainer {
 	background-color: white;
-	align-items: none;
-
+	justify-content: flex-start;
 }
 
 #biocontainer p,
@@ -60,6 +59,7 @@ a:hover {
  	border-radius: 50%;
  	border: 1px solid black;
  	height: 25em;
+ 	margin-top: 1em;
  }
 
 #projectscontainer {
