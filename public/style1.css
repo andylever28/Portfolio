@@ -1,0 +1,155 @@
+* {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+body#background {
+background-color: black;
+background-size: cover;
+
+}
+
+#maincontainer,
+#biocontainer,
+#projectscontainer {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+	width: 90%;
+	margin-left: 5%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+#maincontainer {
+	background: url('./home-about1.jpg') no-repeat 50% 50% fixed;
+}
+#maincontainer p,
+#biocontainer p {
+	font-size: 5em;
+	color: white;
+	margin: 0;
+	text-shadow: #000 0px 0px 1px;
+}
+
+#biocontainer {
+
+	background-color: white;
+}
+
+#biocontainer p,
+#projectscontainer p {
+	font-size: 1.5em;
+	text-align: center;
+	color: black;
+	text-shadow: none;
+	width: 90%;
+	margin-top: 1em;
+}
+
+ #biopic {
+ 	border-radius: 50%;
+ 	border: 1px solid black;
+ 	height: 25em;
+ }
+
+#projectscontainer {
+	background-color: #E8EBF7;	
+	display: block;
+}
+
+#Lisztomania,
+#brandme {
+	width: 30%;
+}
+
+#projectscontainer p {
+	font-size: 1em;
+}
+
+#projectscontainer h3,
+#interestcontainer p {
+	margin-top: 0em;
+	padding: 2em 0em 0em 5%;
+}
+
+#projectscontainer h1, 
+#projectscontainer p,
+#projectscontainer h2 { 
+	padding-left: 10%;
+	text-align: left;
+	width: 80%;
+}
+
+.pagelink {
+	color: #006E90;
+}
+
+.pagelink:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#interestcontainer {
+	width: 90%;
+	height: 100vh;
+	background-color: white;
+	display: flex;
+	margin-left: 5%;
+	flex-wrap: wrap;
+
+}
+
+#interestlist {
+	width: 70%;
+	height: 70%;
+}
+
+#interestlist ul {
+	list-style-type: none;
+}
+
+#interestcontainer p {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 0em;
+}
+
+#interestlist ul li {
+	font-size: 1.2em;
+	margin-left: 0.5em;
+	margin-bottom: 0.7em;
+}
+
+#contacticons {
+	width: 30%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contacticons--pic {
+	height: 7em;
+	width: 7em;
+	margin: 0.5em 7em;
+}
+
+#contactinfo {
+	width: 100%;
+	height: 30%;
+}
+
+#contactinfo h1,
+#contactinfo h2 {
+	text-align: center;
+}
+
+
